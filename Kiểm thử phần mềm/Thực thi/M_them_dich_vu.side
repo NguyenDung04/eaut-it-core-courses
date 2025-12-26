@@ -1,0 +1,913 @@
+{
+  "id": "1069cea3-dc70-4660-9ffe-2baa0eea01aa",
+  "version": "2.0",
+  "name": "M_them_dich_vu",
+  "url": "https://localhost/package/service-price",
+  "tests": [{
+    "id": "92b4ec66-ba4a-4305-a600-80fea1369d18",
+    "name": "M_them_dich_vu-7",
+    "commands": [{
+      "id": "7a81a3cf-554b-4ce4-84cf-ae53e13d7cef",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7fde7a9-a08b-4d76-9ec3-d1678520ee4f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a226678-46b9-45cd-9314-72002651ebf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm giá dịch vụ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "864f7ff3-f19d-48d7-8eaf-28e997476faa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-close-white",
+      "targets": [
+        ["css=.btn-close-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='modalAddService']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bccffa7-3082-427a-853f-702931858acd",
+      "comment": "",
+      "command": "click",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a321a4b-ac19-43ba-837e-6707ae87a099",
+      "comment": "",
+      "command": "type",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Gói miễn phí"
+    }, {
+      "id": "c55d91eb-1317-495d-a645-1ae10e623d92",
+      "comment": "",
+      "command": "click",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2839d818-67bb-420b-a2f9-276c9adc9a09",
+      "comment": "",
+      "command": "type",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "6a2fda80-dfcc-4679-a39a-ec1108b31c3a",
+      "comment": "",
+      "command": "click",
+      "target": "name=status",
+      "targets": [
+        ["name=status", "name"],
+        ["css=.modal-body:nth-child(1) .form-select", "css:finder"],
+        ["xpath=//select[@name='status']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d548b148-ae3f-481d-b999-47087188e17a",
+      "comment": "",
+      "command": "select",
+      "target": "name=status",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "ca46f814-4da4-455c-a2e8-b5ac8b3edf7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9cb246ce-b07d-4838-a398-cc2a1d76f7cb",
+    "name": "M_them_dich_vu-1",
+    "commands": [{
+      "id": "d66b8e66-14ad-4241-ba73-399add56ac96",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e54f7e57-6723-44a5-9caf-49747c32127d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b48d0e4-f0e4-4179-b07e-b3aae63ec98f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm giá dịch vụ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c0c365-aae5-416f-9e29-41cc8266c915",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-close-white",
+      "targets": [
+        ["css=.btn-close-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='modalAddService']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e0094f6-50ca-4301-9744-843782de1300",
+      "comment": "",
+      "command": "click",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8ae4e3b-25a3-4842-991b-0e7a93c32c3d",
+      "comment": "",
+      "command": "type",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9503318-a07b-4cbb-832e-4491d571627d",
+      "comment": "",
+      "command": "click",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b8cfc19-8c6f-4c10-8bd6-9cd40cd2bcd5",
+      "comment": "",
+      "command": "type",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300000"
+    }, {
+      "id": "2fed72c6-e0be-49ff-a168-e48b8c43bded",
+      "comment": "",
+      "command": "click",
+      "target": "name=status",
+      "targets": [
+        ["name=status", "name"],
+        ["css=.modal-body:nth-child(1) .form-select", "css:finder"],
+        ["xpath=//select[@name='status']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6d1be20-47b1-40b7-b9d7-05c36250421e",
+      "comment": "",
+      "command": "select",
+      "target": "name=status",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "b8a5095b-e065-4d35-bda1-4cd096222d6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9ca4f25f-ebf0-4ad1-9850-b83a4b64e944",
+    "name": "M_them_dich_vu-6",
+    "commands": [{
+      "id": "304b9ba2-df4c-4958-bbaf-b1ebe673cd87",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82c8cdac-0fde-4eba-8073-5c792368a892",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fad2250-f297-4b90-881b-68cea05bccd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm giá dịch vụ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ff888f0-0fe8-4a3e-814b-fb985acd2870",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-close-white",
+      "targets": [
+        ["css=.btn-close-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='modalAddService']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d07e41-ebdb-4297-9815-e4ae6275d523",
+      "comment": "",
+      "command": "click",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e0eedb5-c31d-4c56-ba4e-638f59b3c115",
+      "comment": "",
+      "command": "type",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Gói ẩn"
+    }, {
+      "id": "426a3817-1cf1-4d79-8e50-802db821879d",
+      "comment": "",
+      "command": "click",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47266f36-15e5-44b1-9f98-f6bb59e02fcc",
+      "comment": "",
+      "command": "type",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300000"
+    }, {
+      "id": "f6569a21-8e3b-4ecd-8365-3a6b929f5e33",
+      "comment": "",
+      "command": "click",
+      "target": "name=status",
+      "targets": [
+        ["name=status", "name"],
+        ["css=.modal-body:nth-child(1) .form-select", "css:finder"],
+        ["xpath=//select[@name='status']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17111c36-80bd-469d-a85a-7fb5631d706d",
+      "comment": "",
+      "command": "select",
+      "target": "name=status",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "a57c75d6-80ce-473f-9a3a-e99f8db4cf57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6b5ea776-fd16-47ca-bfea-7e469b6a666d",
+    "name": "M_them_dich_vu-5",
+    "commands": [{
+      "id": "88031891-720e-400a-9374-c8fab56a91b4",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e045bbb2-7562-4fc9-8eb2-94e6ffc02f54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3e7d0bd-fb0e-4ec0-91e4-7b26a91611c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm giá dịch vụ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7356f2f-8aff-416f-9b45-a33e896868e5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-close-white",
+      "targets": [
+        ["css=.btn-close-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='modalAddService']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdea5d29-1e4f-4040-891a-cb2a239a8e3f",
+      "comment": "",
+      "command": "click",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "094149f2-c139-4551-bda0-b30d6d151893",
+      "comment": "",
+      "command": "type",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 1"
+    }, {
+      "id": "7d58712c-2f19-498b-8a4e-39b802aeca39",
+      "comment": "",
+      "command": "click",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fcf650d-422c-4001-8c10-be87606d98ee",
+      "comment": "",
+      "command": "type",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300000"
+    }, {
+      "id": "23294bc2-fa51-466b-97a1-95dd6f36f7ee",
+      "comment": "",
+      "command": "click",
+      "target": "name=status",
+      "targets": [
+        ["name=status", "name"],
+        ["css=.modal-body:nth-child(1) .form-select", "css:finder"],
+        ["xpath=//select[@name='status']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda26a5f-7568-45bc-96ae-d033d16eb8ef",
+      "comment": "",
+      "command": "select",
+      "target": "name=status",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "6e4d8ea5-1d60-4739-82c0-386bd23d1dec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5185773b-d138-40b5-b9d4-96d7b65b370c",
+    "name": "M_them_dich_vu-4",
+    "commands": [{
+      "id": "ce297446-3ebe-4f37-8c33-9edaf18a73b9",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61691fb7-1ba0-44cd-945f-fa93bf90953f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "439c2f96-ac36-4e3e-ae99-1f704dd3b217",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm giá dịch vụ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b108f8fd-0fdf-4ef9-a8c0-8109356d93e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-close-white",
+      "targets": [
+        ["css=.btn-close-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='modalAddService']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c69bfaf-0bcb-4c14-9062-9bfaa551c73f",
+      "comment": "",
+      "command": "click",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deac5fbc-4863-4c9a-8e11-e00cf3f6eddd",
+      "comment": "",
+      "command": "type",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 12 Tháng"
+    }, {
+      "id": "5c142dc2-4638-4345-8c71-a87361d2a087",
+      "comment": "",
+      "command": "click",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d099ef7-93d5-47fb-a593-29d3aeb475a2",
+      "comment": "",
+      "command": "type",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300000"
+    }, {
+      "id": "461bbec0-2d58-4286-9233-3cc3bf5aa77b",
+      "comment": "",
+      "command": "click",
+      "target": "name=status",
+      "targets": [
+        ["name=status", "name"],
+        ["css=.modal-body:nth-child(1) .form-select", "css:finder"],
+        ["xpath=//select[@name='status']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87b46280-b5d7-4d4c-a1b8-27f45382dcea",
+      "comment": "",
+      "command": "select",
+      "target": "name=status",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "be84863f-dc7b-4b80-891e-dd724dc378de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4c26ea8b-8510-4935-9426-270ae5ee85f3",
+    "name": "M_them_dich_vu-3",
+    "commands": [{
+      "id": "c1549932-b622-42a9-acba-6c5263014ff6",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5c06cd0-738b-497e-b445-8922e217039d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fde98558-9206-458e-a64c-b52c6afd4ac6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm giá dịch vụ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "069fc801-9588-4209-b4db-1360c07a4528",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-close-white",
+      "targets": [
+        ["css=.btn-close-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='modalAddService']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "263b7709-9323-4f63-964a-26dabad3909f",
+      "comment": "",
+      "command": "click",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "032ce6eb-00ca-4584-8f7e-579ec4b56234",
+      "comment": "",
+      "command": "type",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 12 Tháng"
+    }, {
+      "id": "b9f08343-3a72-4e14-9fa2-75fe1baabbf7",
+      "comment": "",
+      "command": "click",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03b44e79-333e-4f27-9f25-fc522b42ccb3",
+      "comment": "",
+      "command": "type",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "-1300000"
+    }, {
+      "id": "ec01f354-0f2e-41aa-b3eb-5520ad8fa739",
+      "comment": "",
+      "command": "click",
+      "target": "name=status",
+      "targets": [
+        ["name=status", "name"],
+        ["css=.modal-body:nth-child(1) .form-select", "css:finder"],
+        ["xpath=//select[@name='status']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2b4824-11aa-4c3e-811d-d95727a8e574",
+      "comment": "",
+      "command": "select",
+      "target": "name=status",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "55c9e810-048a-4820-9746-12c2ce3c4fe9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6730d420-0b54-4f4f-9bbb-7fd31ffec0b9",
+    "name": "M_them_dich_vu-2",
+    "commands": [{
+      "id": "28927288-1029-4385-99eb-84e10d713c5a",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2dfc2c1-8a41-4678-b5ee-6929f8f2f561",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96aaa4b6-962c-4c9e-8ab3-a87779eb42d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm giá dịch vụ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "979b17bf-6cc2-4e3a-a95c-d179755fc371",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-close-white",
+      "targets": [
+        ["css=.btn-close-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='modalAddService']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceab2c97-0bb8-4ffe-acde-f4794e97b14e",
+      "comment": "",
+      "command": "click",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38427722-589b-46ed-8550-dc26d76662ed",
+      "comment": "",
+      "command": "type",
+      "target": "name=post_type",
+      "targets": [
+        ["name=post_type", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='post_type']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 12 Tháng"
+    }, {
+      "id": "7c7cdfca-8b16-44ac-814d-3f483a889e61",
+      "comment": "",
+      "command": "click",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e98edc9b-289f-47a7-b12b-355731983414",
+      "comment": "",
+      "command": "type",
+      "target": "name=promo_price",
+      "targets": [
+        ["name=promo_price", "name"],
+        ["css=.modal-body:nth-child(1) > .mb-3:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='promo_price']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "159fcb50-5e66-414d-af6d-ba085faac9cc",
+      "comment": "",
+      "command": "click",
+      "target": "name=status",
+      "targets": [
+        ["name=status", "name"],
+        ["css=.modal-body:nth-child(1) .form-select", "css:finder"],
+        ["xpath=//select[@name='status']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfd5892f-54e9-4e16-a0ab-750a7bb70a2f",
+      "comment": "",
+      "command": "select",
+      "target": "name=status",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "71fe1150-7517-4be8-84fa-1515e482879a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1458da3d-49ac-43c6-81cb-81b1bb45602c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["92b4ec66-ba4a-4305-a600-80fea1369d18"]
+  }],
+  "urls": ["https://localhost/package/service-price"],
+  "plugins": []
+}

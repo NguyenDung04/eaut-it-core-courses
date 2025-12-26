@@ -1,0 +1,365 @@
+{
+  "id": "3e3391ea-2221-4259-81c4-7ad1a6b99bad",
+  "version": "2.0",
+  "name": "M_them_quan_huyen",
+  "url": "https://localhost/post/manage-location",
+  "tests": [{
+    "id": "1f59e72f-6b1f-4740-b16c-3e5a5b92dd74",
+    "name": "M_them_quan_huyen-4",
+    "commands": [{
+      "id": "87dea877-3570-491b-b2f3-1f9dafad1950",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38e2b4e8-6aa4-4883-b5aa-53ae7f2dd35e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3bb0779-f301-4051-8d16-4380659170fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-bottom > .btn",
+      "targets": [
+        ["css=.border-bottom > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm quận / huyện')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf2c1686-8848-46b6-b471-7634151a3c30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-4:nth-child(1) .form-control",
+      "targets": [
+        ["css=.p-4:nth-child(1) .form-control", "css:finder"],
+        ["xpath=(//input[@name='title'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49dc67a9-ab86-4cf4-862a-3015c9d70acf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.p-4:nth-child(1) .form-control",
+      "targets": [
+        ["css=.p-4:nth-child(1) .form-control", "css:finder"],
+        ["xpath=(//input[@name='title'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "Quận 7"
+    }, {
+      "id": "fe7bbd79-db4a-4f36-860e-c30c72724abd",
+      "comment": "",
+      "command": "click",
+      "target": "name=city_id",
+      "targets": [
+        ["name=city_id", "name"],
+        ["css=.p-4:nth-child(1) > .mb-3:nth-child(2) > .form-select", "css:finder"],
+        ["xpath=//select[@name='city_id']", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a554dddb-5e76-4359-8766-ae5ad7c38d4f",
+      "comment": "",
+      "command": "select",
+      "target": "name=city_id",
+      "targets": [],
+      "value": "label=Thành Phố Hồ Chí Minh"
+    }, {
+      "id": "07a050b5-375d-4887-9720-0c215c8029d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-top-0 > .btn-primary",
+      "targets": [
+        ["css=.border-top-0 > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6e9f8088-46a2-4a67-bf88-0a9251dbebc3",
+    "name": "M_them_quan_huyen-2",
+    "commands": [{
+      "id": "aff06a54-c006-4984-a8f7-fc0e1e2eec1c",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92fc3baf-9f9e-42dd-99fc-5968ba08b87e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "540c1f08-10a4-423a-8def-da20448a69c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-bottom > .btn",
+      "targets": [
+        ["css=.border-bottom > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm quận / huyện')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55c4a040-21a9-4a88-98df-8b5d7b93242b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-4:nth-child(1) .form-control",
+      "targets": [
+        ["css=.p-4:nth-child(1) .form-control", "css:finder"],
+        ["xpath=(//input[@name='title'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e04022d-210d-474d-9e18-d911e3d300ac",
+      "comment": "",
+      "command": "type",
+      "target": "css=.p-4:nth-child(1) .form-control",
+      "targets": [
+        ["css=.p-4:nth-child(1) .form-control", "css:finder"],
+        ["xpath=(//input[@name='title'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "1. Nhập thông tin: Quận phải có độ dài lớn hơn 100 ký tự. Sau đó bấm nút Lưu để hoàn tất quá trình nhập liệu"
+    }, {
+      "id": "82905bb5-5e59-4ab1-a353-ecc6fae504b8",
+      "comment": "",
+      "command": "click",
+      "target": "name=city_id",
+      "targets": [
+        ["name=city_id", "name"],
+        ["css=.p-4:nth-child(1) > .mb-3:nth-child(2) > .form-select", "css:finder"],
+        ["xpath=//select[@name='city_id']", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "992f0445-faf7-47f3-9581-45fefcfe6693",
+      "comment": "",
+      "command": "select",
+      "target": "name=city_id",
+      "targets": [],
+      "value": "label=Thành Phố Hồ Chí Minh"
+    }, {
+      "id": "075f255f-d559-466e-8ea8-e332fe0095e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-top-0 > .btn-primary",
+      "targets": [
+        ["css=.border-top-0 > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9421b50a-12a3-4ee1-883c-c835a51105cf",
+    "name": "M_them_quan_huyen-3",
+    "commands": [{
+      "id": "37acdca6-6a4c-48ac-9db6-f41cf06a0809",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e841f334-1721-460c-afe7-d76da01d946f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5818a8d3-040f-4c98-aa96-b082632001a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-bottom > .btn",
+      "targets": [
+        ["css=.border-bottom > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm quận / huyện')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "797cfb5e-f2d4-432a-a3b3-3188a54a4927",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-4:nth-child(1) .form-control",
+      "targets": [
+        ["css=.p-4:nth-child(1) .form-control", "css:finder"],
+        ["xpath=(//input[@name='title'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "886eb216-e680-443f-85e7-2572dd201cdd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.p-4:nth-child(1) .form-control",
+      "targets": [
+        ["css=.p-4:nth-child(1) .form-control", "css:finder"],
+        ["xpath=(//input[@name='title'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "Quận 7"
+    }, {
+      "id": "da18c6bd-794c-42f9-a276-871086f8f00d",
+      "comment": "",
+      "command": "click",
+      "target": "name=city_id",
+      "targets": [
+        ["name=city_id", "name"],
+        ["css=.p-4:nth-child(1) > .mb-3:nth-child(2) > .form-select", "css:finder"],
+        ["xpath=//select[@name='city_id']", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f5f9ee0-4b9e-444d-a31c-def79ae03107",
+      "comment": "",
+      "command": "select",
+      "target": "name=city_id",
+      "targets": [],
+      "value": "label=Thành Phố Hồ Chí Minh"
+    }, {
+      "id": "da5fc5a5-d472-43f4-8686-2c38595bb935",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-top-0 > .btn-primary",
+      "targets": [
+        ["css=.border-top-0 > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "49b4f92f-89cc-4b76-87eb-5d5c4a08d97b",
+    "name": "M_them_quan_huyen-1",
+    "commands": [{
+      "id": "40454375-d831-4dd9-afbf-b5fafc1511b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27af1fb6-bea1-4dff-99f1-ad7e85322ecf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ab7ee6d-d1fb-4d8c-8d0f-fb60782ab763",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-bottom > .btn",
+      "targets": [
+        ["css=.border-bottom > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm quận / huyện')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cf25d90-5dbd-4df0-8e98-cbeeffc2ef39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-4:nth-child(1) .form-control",
+      "targets": [
+        ["css=.p-4:nth-child(1) .form-control", "css:finder"],
+        ["xpath=(//input[@name='title'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83747eab-bf69-42fa-9666-bd2ac10bbd61",
+      "comment": "",
+      "command": "type",
+      "target": "css=.p-4:nth-child(1) .form-control",
+      "targets": [
+        ["css=.p-4:nth-child(1) .form-control", "css:finder"],
+        ["xpath=(//input[@name='title'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee3be180-b0cf-4220-a553-12114c89a5d7",
+      "comment": "",
+      "command": "click",
+      "target": "name=city_id",
+      "targets": [
+        ["name=city_id", "name"],
+        ["css=.p-4:nth-child(1) > .mb-3:nth-child(2) > .form-select", "css:finder"],
+        ["xpath=//select[@name='city_id']", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01b4c346-bc52-4c2b-bfd9-92b16318d3e2",
+      "comment": "",
+      "command": "select",
+      "target": "name=city_id",
+      "targets": [],
+      "value": "label=Thành Phố Hồ Chí Minh"
+    }, {
+      "id": "a27240b2-73d5-41d8-9e1b-3a42980e8be1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-top-0 > .btn-primary",
+      "targets": [
+        ["css=.border-top-0 > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='districtAddForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5ffdc3c4-2b87-4689-b3f9-4f0c329f53c3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1f59e72f-6b1f-4740-b16c-3e5a5b92dd74"]
+  }],
+  "urls": ["https://localhost/post/manage-location"],
+  "plugins": []
+}

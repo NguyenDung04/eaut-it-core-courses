@@ -1,0 +1,482 @@
+{
+  "id": "351e036f-7f28-4df5-8c89-16e54d6fe9f0",
+  "version": "2.0",
+  "name": "M_Them_thanh_pho",
+  "url": "https://localhost/post/manage-location",
+  "tests": [{
+    "id": "702243c7-26c4-4e56-be44-3628e1cbee07",
+    "name": "M_Them_thanh_pho-5",
+    "commands": [{
+      "id": "6cbc7b4d-73c1-4bf4-90e8-3ef07223fde8",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "419a1131-df9c-4e67-af20-38f924804ae9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f6d21c8-208f-44cf-9544-ff005ed58933",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0 > .btn-sm",
+      "targets": [
+        ["css=.border-0 > .btn-sm", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm tỉnh / thành')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7539dc22-4bbd-434f-9bff-4fdaa0ce9b22",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "945783c4-b84a-4d69-85db-abd484a2284d",
+      "comment": "",
+      "command": "type",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Cần Thơ"
+    }, {
+      "id": "521e9186-1be3-4937-b0f5-1b9fba3f59e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceStatus",
+      "targets": [
+        ["id=provinceStatus", "id"],
+        ["name=status", "name"],
+        ["css=#provinceStatus", "css:finder"],
+        ["xpath=//select[@id='provinceStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5beff59-bcfe-4b78-9a3b-a01d109965bf",
+      "comment": "",
+      "command": "select",
+      "target": "id=provinceStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "0d1f4489-2a85-42a3-a9ae-f664fcfe43e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.border-0:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "998d068f-f247-48cd-b0c3-3c69d83f13de",
+    "name": "M_Them_thanh_pho-1",
+    "commands": [{
+      "id": "1cf23eea-9a3e-48d2-97b5-62b8eb006298",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fde47800-d22e-4dfe-84c1-77b798da3299",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42dfacd3-53a2-438a-b70d-dc00fe509d5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0 > .btn-sm",
+      "targets": [
+        ["css=.border-0 > .btn-sm", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm tỉnh / thành')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4298a7b6-39f4-4ce9-a794-a338cb77910d",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5019e253-baca-494d-bf39-0f8655656d5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69aca44f-37df-4c5a-9bf3-82736242fb7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceStatus",
+      "targets": [
+        ["id=provinceStatus", "id"],
+        ["name=status", "name"],
+        ["css=#provinceStatus", "css:finder"],
+        ["xpath=//select[@id='provinceStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98cdf1b4-2f3a-4cb8-a9e9-5c967193e17b",
+      "comment": "",
+      "command": "select",
+      "target": "id=provinceStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "ebb24762-3520-4742-80c9-6a1b82b60b45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.border-0:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2b2c8cc8-c0d1-4a45-b4fd-b78c4e861bb8",
+    "name": "M_Them_thanh_pho-2",
+    "commands": [{
+      "id": "ce8104a8-d04e-47a1-8d00-2f58f7a8cc2c",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c24d2053-ee30-4ffa-b709-5bd7a054eef5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "224b6a95-b9e9-4e9f-a038-712e126f6aef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0 > .btn-sm",
+      "targets": [
+        ["css=.border-0 > .btn-sm", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm tỉnh / thành')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09f507ef-4967-40fc-8521-ba90e599542f",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fe0fc45-1463-43b9-accf-6fc6c26a6021",
+      "comment": "",
+      "command": "type",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Hà Nội"
+    }, {
+      "id": "c5f70c6b-fa36-4c89-b4b1-16776f7e230c",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceStatus",
+      "targets": [
+        ["id=provinceStatus", "id"],
+        ["name=status", "name"],
+        ["css=#provinceStatus", "css:finder"],
+        ["xpath=//select[@id='provinceStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9629cf8d-f160-41bd-b0eb-3ca3013caa0e",
+      "comment": "",
+      "command": "select",
+      "target": "id=provinceStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "81d9277a-5f23-4b4e-beab-b1b93a90f48f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.border-0:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "275126dc-bde9-4ca9-a37a-6fcfbc3de159",
+    "name": "M_Them_thanh_pho-3",
+    "commands": [{
+      "id": "869a0768-8fd7-4c47-af8f-5f81bace3496",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2947039-9afe-4c7f-81af-359cd433d5e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "378efe69-1dfe-4fa0-a79b-0ed68307ffea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0 > .btn-sm",
+      "targets": [
+        ["css=.border-0 > .btn-sm", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm tỉnh / thành')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cef1946-17a2-4f90-a161-0ead06607850",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ba4cab6-03e8-4b41-a77f-d5b110166639",
+      "comment": "",
+      "command": "type",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Đà Nẵng"
+    }, {
+      "id": "277dde6c-ba0e-4e7e-9507-2aef7985f554",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceStatus",
+      "targets": [
+        ["id=provinceStatus", "id"],
+        ["name=status", "name"],
+        ["css=#provinceStatus", "css:finder"],
+        ["xpath=//select[@id='provinceStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9458fa3d-468e-40c0-868d-aa26a44d8db7",
+      "comment": "",
+      "command": "select",
+      "target": "id=provinceStatus",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "dca03750-f7dc-4fd8-bc7a-22c08a4e00ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.border-0:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "85e88b47-6632-43e2-b417-ab458d255d71",
+    "name": "M_Them_thanh_pho-4",
+    "commands": [{
+      "id": "e9f646cb-30ce-4921-8c92-18b13265d377",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-location",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e57d259-0874-4c39-80d2-75d81196328f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9022f095-ab7c-483e-9c5d-89e229fb9af9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0 > .btn-sm",
+      "targets": [
+        ["css=.border-0 > .btn-sm", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm tỉnh / thành')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fb937a4-633d-4273-94f4-ddf89570f888",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5196b0b6-c393-4660-a95a-1d55e61ffc8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=provinceTitle",
+      "targets": [
+        ["id=provinceTitle", "id"],
+        ["name=title", "name"],
+        ["css=#provinceTitle", "css:finder"],
+        ["xpath=//input[@id='provinceTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Hồ Chí Minh"
+    }, {
+      "id": "87e15eb9-dcbf-4de3-8647-518106fb09f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=provinceStatus",
+      "targets": [
+        ["id=provinceStatus", "id"],
+        ["name=status", "name"],
+        ["css=#provinceStatus", "css:finder"],
+        ["xpath=//select[@id='provinceStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0750b867-b2c9-4533-93f9-f1edf9646ac1",
+      "comment": "",
+      "command": "select",
+      "target": "id=provinceStatus",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "9b78e6e3-cef9-4121-ae81-d45da9f5c1d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-0:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.border-0:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addProvinceForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "65d07360-1153-43a6-98c6-c96eec9be41f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://localhost/post/post-ads", "https://localhost/post/manage-location"],
+  "plugins": []
+}

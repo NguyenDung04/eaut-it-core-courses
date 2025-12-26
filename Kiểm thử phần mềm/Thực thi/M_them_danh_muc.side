@@ -1,0 +1,602 @@
+{
+  "id": "43f8b1ef-1f69-49d9-851e-58f1d31fb7c5",
+  "version": "2.0",
+  "name": "M_them_danh_muc",
+  "url": "https://localhost/post/manage-category",
+  "tests": [{
+    "id": "8a3f8342-7f79-4224-8052-7ac1a335a066",
+    "name": "M_them_danh_muc-2",
+    "commands": [{
+      "id": "38b42931-9a37-4aa6-ad38-6b7ff15779fd",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-category",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c08fbd6e-d7ca-488d-9ffa-5436f90ab897",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d70a478-e56c-4839-9ddc-715cbb826dcb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c5a77d1-78b3-46ca-8e94-f0cf74162a54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-grow-1",
+      "targets": [
+        ["css=.flex-grow-1", "css:finder"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d90200-e6a4-483a-b7d0-e9b039f7e6fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b0aca16-8b5a-49fd-b067-1c8b691a28a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b168771-868a-412a-9b55-731087b90dcc",
+      "comment": "",
+      "command": "type",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Cho thuee thoi gian"
+    }, {
+      "id": "09d46e58-3121-42f2-8971-7fae6619b0a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryStatus",
+      "targets": [
+        ["id=categoryStatus", "id"],
+        ["name=status", "name"],
+        ["css=#categoryStatus", "css:finder"],
+        ["xpath=//select[@id='categoryStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35e47549-5106-4a32-a1c5-b32a09d7baa5",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoryStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "a93d7007-07b6-4b1f-b77f-653e05406f95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "48a6be9a-2c75-4010-9493-8fb712a4b41f",
+    "name": "M_them_danh_muc-1",
+    "commands": [{
+      "id": "f07774f3-e641-48ce-b77e-3bd37761b27f",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-category",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4072e8df-9ac1-4cc8-9cc9-95a18904d0d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce800c0d-5e25-4fe2-8e60-cc43ba060aa7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de540d56-7cb6-4929-b092-48cdb53f7324",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-grow-1",
+      "targets": [
+        ["css=.flex-grow-1", "css:finder"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b27d794-e5bd-490a-bbe8-347ad10c408f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83a288ce-6d9f-44ac-883c-f58349c8361a",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50882e42-f35d-4916-a9a8-94b8e6dd96f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a23b02a-c847-47ba-890f-88b38a0baa0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryStatus",
+      "targets": [
+        ["id=categoryStatus", "id"],
+        ["name=status", "name"],
+        ["css=#categoryStatus", "css:finder"],
+        ["xpath=//select[@id='categoryStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47a25189-d350-4494-9fe6-51a9f171167d",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoryStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "a30b2c2f-a501-477a-81b3-e7c829fe7019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1c83ed1c-39df-442e-858d-11a71648e92f",
+    "name": "M_them_danh_muc-3",
+    "commands": [{
+      "id": "91a0d7ce-bc31-4a2b-b91d-feced21d4b4e",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-category",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bee9731b-7ef7-468e-9478-e279f9926402",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c78875fd-b024-47f3-bb01-763aeb2bae46",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d313094-c2bb-4223-90ad-c605c11456a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-grow-1",
+      "targets": [
+        ["css=.flex-grow-1", "css:finder"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfcc18c0-0b74-431f-9a3e-e7d636051619",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f844474c-9ec9-47fb-81df-73a82822d988",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16514de5-d813-4951-b472-7ddedadcbec0",
+      "comment": "",
+      "command": "type",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Cho thuee thoi gian"
+    }, {
+      "id": "a0ea0543-3bc4-40a1-b82a-49be9d9283f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryStatus",
+      "targets": [
+        ["id=categoryStatus", "id"],
+        ["name=status", "name"],
+        ["css=#categoryStatus", "css:finder"],
+        ["xpath=//select[@id='categoryStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a581c4f-1f12-4600-81e9-83ef5370f2db",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoryStatus",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "d2373d63-f466-42c7-a8bf-76820c5f3214",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b65d8374-0b01-4f89-a130-306e3193ddb9",
+    "name": "M_them_danh_muc-5",
+    "commands": [{
+      "id": "082a0968-2828-4f9f-842c-1cce8451cd5d",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-category",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3215395a-58f3-444c-82da-26c2426143b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d0d6382-3da5-4354-9a18-4fa2a2c5cea4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c9a95c8-8665-447c-9268-2bd7ec2af242",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-grow-1",
+      "targets": [
+        ["css=.flex-grow-1", "css:finder"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd4cd5a3-57d0-4695-a1da-50163c222f12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df02d590-d67e-4c84-9bab-ce3c8c72c9c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d0feb3-e637-4250-b9bb-0d923c7c1b77",
+      "comment": "",
+      "command": "type",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Cho thuee thoi gian@#"
+    }, {
+      "id": "b9cf110d-15f0-424b-87ae-3217d6afe600",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryStatus",
+      "targets": [
+        ["id=categoryStatus", "id"],
+        ["name=status", "name"],
+        ["css=#categoryStatus", "css:finder"],
+        ["xpath=//select[@id='categoryStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe4c989-4039-484b-b1ac-12fb1edd637b",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoryStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "3cc3fe98-7644-4ab1-8546-6419002dd738",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "45b86f24-fabb-4154-97e7-6d175e0661ae",
+    "name": "M_them_danh_muc-4",
+    "commands": [{
+      "id": "9a164ab3-320b-4d11-b1d9-c13265a10613",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/post/manage-category",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d18504f-0e5b-4b44-b9b1-db5b2679c7c0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87937392-61ac-43ea-a329-22900398de56",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "621c085e-ef80-4ddd-ae4e-0c933785b006",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-grow-1",
+      "targets": [
+        ["css=.flex-grow-1", "css:finder"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d07a4a0-4a58-470a-9025-a39e217c7d01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-header > .btn",
+      "targets": [
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd8dd610-e61b-48f1-9bc0-a63504e6e177",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "579ea5e0-5e04-4e92-af24-54a53bbedd98",
+      "comment": "",
+      "command": "type",
+      "target": "id=categoryTitle",
+      "targets": [
+        ["id=categoryTitle", "id"],
+        ["name=title", "name"],
+        ["css=#categoryTitle", "css:finder"],
+        ["xpath=//input[@id='categoryTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46848bd4-24a1-4fcd-86c9-f77987216abb",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoryStatus",
+      "targets": [
+        ["id=categoryStatus", "id"],
+        ["name=status", "name"],
+        ["css=#categoryStatus", "css:finder"],
+        ["xpath=//select[@id='categoryStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b76be5ee-505a-4ab4-9b85-0ac4f41e8e1f",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoryStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "6dcf20bd-678a-44a6-8f80-d183f70cd7ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='addCategoryForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu danh mục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7fa8dc7a-f303-473a-b4f5-b8da0897b163",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://localhost/post/manage-category"],
+  "plugins": []
+}

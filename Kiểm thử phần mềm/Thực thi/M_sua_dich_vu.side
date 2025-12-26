@@ -1,0 +1,1438 @@
+{
+  "id": "4b3e39cd-fa7a-434a-a6ea-505d50b40381",
+  "version": "2.0",
+  "name": "M_sua_dich_vu",
+  "url": "https://localhost/package/service-price",
+  "tests": [{
+    "id": "3be19c92-7ff0-4d66-b123-1187925aed5f",
+    "name": "M_sua_dich_vu-1",
+    "commands": [{
+      "id": "fb7d9f6d-035a-4e96-8f5b-3e84323be6c4",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cb9de57-48f4-402c-9ec0-e36880533731",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daabe003-cca4-4334-9a9b-91c484946f69",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) > .text-center:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(12) > .text-center:nth-child(4)", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[4]", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75c50546-2a27-48cc-814a-95b5536d9dfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) .btn:nth-child(1) > .fas",
+      "targets": [
+        ["css=tr:nth-child(12) .btn:nth-child(1) > .fas", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[5]/div/button/i", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[5]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7893bec-6a51-4e64-beec-6de40369ea68",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aee1cae-d15f-467c-82ac-e90d73406d73",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 1123"
+    }, {
+      "id": "224f5b9c-c534-4db1-b8a0-c313a8a32370",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87df412d-88fc-43d0-bbe6-2916cd94b17d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "f1bac0aa-9dd6-40eb-a1d0-4a84f34d2c1c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "b4a1ed91-d433-4755-a733-d1275518170b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "3723afb5-6f32-4ccb-9459-ddee94270711",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21e9efc5-48ba-4234-b578-8e913291e90a",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300031"
+    }, {
+      "id": "c35b401a-54b0-4651-905d-77f61e1a9932",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditStatus",
+      "targets": [
+        ["id=serviceEditStatus", "id"],
+        ["css=#serviceEditStatus", "css:finder"],
+        ["xpath=//select[@id='serviceEditStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a06613c-68ab-4dd6-b558-77ba77dd0fee",
+      "comment": "",
+      "command": "select",
+      "target": "id=serviceEditStatus",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "23cedfbb-f8c9-42be-9521-3de281e0aa18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f6e379-cfb1-4b3c-a60c-9a8474455f14",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e8e03b7-4799-4d7e-900d-e6a784d7cf19",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "64f9715a-5039-43cd-b1c8-b4a56efd9b68",
+    "name": "M_sua_dich_vu-2",
+    "commands": [{
+      "id": "ab0859ae-c4a7-4ee8-a374-95ca7f8a7f34",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbb999b7-512c-4b11-b042-27d8b8b09490",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5bd92b5-d571-461d-aa8f-2027e3996564",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) > .text-center:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(12) > .text-center:nth-child(4)", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[4]", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a00d6ec7-1e5e-4c14-8cd7-275a25e46de8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) .btn:nth-child(1) > .fas",
+      "targets": [
+        ["css=tr:nth-child(12) .btn:nth-child(1) > .fas", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[5]/div/button/i", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[5]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49ad1ac7-5994-48ac-b4ae-871d0ba3afcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d3ff974-3185-4b19-8e45-c2a9e7c11719",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 1123"
+    }, {
+      "id": "aee8d90e-aaf7-4f80-895b-c08305e8ca88",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad94b9d8-7f66-497e-a981-e168a5de2277",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "b7222755-3ce8-4cf5-9e90-378c076410ea",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "7bb8934f-9257-4e05-8e0a-b65ee2371912",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "b87199e1-60ee-45af-9b64-c27860444635",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ec0ac67-86b9-4694-ad31-3a9b459676d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300031"
+    }, {
+      "id": "8d5a265c-eb9c-48cf-99c1-01a345d8f5f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditStatus",
+      "targets": [
+        ["id=serviceEditStatus", "id"],
+        ["css=#serviceEditStatus", "css:finder"],
+        ["xpath=//select[@id='serviceEditStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76aa7752-858b-4434-b227-9b04c710c641",
+      "comment": "",
+      "command": "select",
+      "target": "id=serviceEditStatus",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "b36efe3e-72fb-42d1-a7d7-37cf12285198",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09b1397a-b4e1-4839-88ee-df82161db4c1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d5a8d38-a5d0-4cd1-acb3-f24b92899fd4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5a76a028-a58b-4956-8366-1857acee7f07",
+    "name": "M_sua_dich_vu-3",
+    "commands": [{
+      "id": "13be6c68-6ae0-4f75-b18e-54ff1af06cb3",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38d0716b-3694-410f-bd86-ba174aa5e100",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3123cdfc-0610-4017-bda8-d51c1f218a93",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) > .text-center:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(12) > .text-center:nth-child(4)", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[4]", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dcc51ad-cd32-4df5-b0cf-ee0eaab33567",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) .btn:nth-child(1) > .fas",
+      "targets": [
+        ["css=tr:nth-child(12) .btn:nth-child(1) > .fas", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[5]/div/button/i", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[5]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0360d392-8c8b-40a7-b75c-a99546c71454",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b8b864d-9bdc-4360-8f55-303c0388280b",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 1123"
+    }, {
+      "id": "172dc605-76a9-4ed8-9ba4-6d1c639636cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f24423-331c-4297-8407-fadf47ec6939",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "e46f3938-781e-4265-9d06-8ee64691cd3f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "a592743f-c9d5-42c9-b47b-54dcda285424",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "e8b57bcc-2e63-4ead-a6ad-e4ceaa2871ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32450875-a19a-4685-99b1-6b4f0017445f",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "abvc"
+    }, {
+      "id": "3cb9bb13-aedc-4158-a263-d67536d24f68",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditStatus",
+      "targets": [
+        ["id=serviceEditStatus", "id"],
+        ["css=#serviceEditStatus", "css:finder"],
+        ["xpath=//select[@id='serviceEditStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f89b2b8b-aed8-4e9b-a2bd-a3f110529dbd",
+      "comment": "",
+      "command": "select",
+      "target": "id=serviceEditStatus",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "6f27a56a-7e9b-4b57-8094-4d94bf466803",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f1f924c-b4cf-4ef1-b7f2-a14ad342d9fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bcefd12-c767-46f0-af2f-76b51e1beae7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fca0698b-1605-439f-9c63-d2b1e2ee7c38",
+    "name": "M_sua_dich_vu-4",
+    "commands": [{
+      "id": "c020cb62-fbae-4d5c-b144-d7432aa47ff8",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d329269-eef1-4072-8cc5-fa2d1d939a80",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63019157-d127-4866-8b66-c109c99b862b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) > .text-center:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(12) > .text-center:nth-child(4)", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[4]", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d81b12e9-3a04-4537-b38d-f10ec70db34b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) .btn:nth-child(1) > .fas",
+      "targets": [
+        ["css=tr:nth-child(12) .btn:nth-child(1) > .fas", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[5]/div/button/i", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[5]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ad08365-6502-4da6-914e-751bd859a555",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f77b6a96-94bd-4e12-abd3-10a7d857885b",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP PRO"
+    }, {
+      "id": "6a4edc4e-5a5a-42bc-bb72-34f1555ded95",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fad27a5-e5e4-4201-a480-cef1f1799a1e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "602c9e70-9800-4ca3-a4bb-5164dcb3916c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "532a416c-43c0-4abd-a467-5b5a21c266c2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "68955580-db0a-4f90-86dd-6e50de1258f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7fe4dd8-5ed4-4b1d-b8d2-7b27bfc8babd",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300031"
+    }, {
+      "id": "a987ab88-dac0-40e8-974f-0944f089c251",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditStatus",
+      "targets": [
+        ["id=serviceEditStatus", "id"],
+        ["css=#serviceEditStatus", "css:finder"],
+        ["xpath=//select[@id='serviceEditStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "295fc786-f9d9-4dd1-9a8e-911e71d7552d",
+      "comment": "",
+      "command": "select",
+      "target": "id=serviceEditStatus",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "02bd419b-840f-4775-8a3a-eeb82257fe11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b041654e-05ae-41ca-83b5-e227c566ff3a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79f9e70-1cf1-4474-9cec-a4f9a9dbb6f1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "85da947c-dd30-4384-a0b0-6e909bfe3da2",
+    "name": "M_sua_dich_vu-5",
+    "commands": [{
+      "id": "c78c2af6-0ce9-490a-8157-1c4698a21fbf",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2d76c9c-d2c9-4a56-aa9b-22cc0ee34f63",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b00fefb-c41f-4738-b264-2d44cdbcb278",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) > .text-center:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(12) > .text-center:nth-child(4)", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[4]", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17d2eb89-fd6c-4171-848b-34ca194edc79",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) .btn:nth-child(1) > .fas",
+      "targets": [
+        ["css=tr:nth-child(12) .btn:nth-child(1) > .fas", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[5]/div/button/i", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[5]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14c15bea-940b-4ea6-8920-4f1781003990",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3743dba8-7c52-4903-8ca6-90007e753332",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 1123"
+    }, {
+      "id": "3bf73bde-01e2-49ce-89e3-4bab53817d52",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f863417-ade0-4f36-9e2d-32af2c51d1ef",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "0098ea48-e4da-4518-8854-8e05dc03466d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "0644da3e-2f0d-4ef8-9011-32a43c4cb589",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "b1cd3dec-97cc-4a6a-98f8-32f9bf3ebbb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a855b72c-530a-4383-a424-48d55bf175a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300031"
+    }, {
+      "id": "f998d973-892c-432b-90c8-f20d88d01d99",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditStatus",
+      "targets": [
+        ["id=serviceEditStatus", "id"],
+        ["css=#serviceEditStatus", "css:finder"],
+        ["xpath=//select[@id='serviceEditStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b3c81fe-d145-4d17-8728-1746af08a842",
+      "comment": "",
+      "command": "select",
+      "target": "id=serviceEditStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "4562daed-7a14-4ed5-900c-e68e7d089635",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "362f41fa-9f5a-40b1-aa93-bca5b7295cca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0963f18c-941b-4f90-b27e-97794eeff9b8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f7d22080-c65c-417f-8b41-51bb01578923",
+    "name": "M_sua_dich_vu-6",
+    "commands": [{
+      "id": "f650b459-9496-4a96-a72e-9a9241b605e1",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1483689-6c6d-48ba-84b7-8840d2a85cb0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b400c92-4269-4019-a286-cb5cb019de9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) > .text-center:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(12) > .text-center:nth-child(4)", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[4]", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dae6b29b-eeae-4646-8696-26ddafef8ba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) .btn:nth-child(1) > .fas",
+      "targets": [
+        ["css=tr:nth-child(12) .btn:nth-child(1) > .fas", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[5]/div/button/i", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[5]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d7e37fd-4b45-4f37-8152-50892b7205d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b909a024-3c30-43a9-9d8e-4623e361c20b",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 1123"
+    }, {
+      "id": "3bb6c063-d2ad-4a2e-a008-a850377aea05",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "309cb873-1844-448b-9f7d-bb4d1abf878a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "f21e3539-fdf7-49f7-848d-8192926d8dd0",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "433bbff1-18de-417a-8dc3-c2a36422c475",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "12c22879-0b97-4426-a940-c851e186d212",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1cfea07-0bbb-4d13-ba7d-a6a8a11ae44b",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300031"
+    }, {
+      "id": "78396c45-cd83-4a43-9f7b-c788fb89d6f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditStatus",
+      "targets": [
+        ["id=serviceEditStatus", "id"],
+        ["css=#serviceEditStatus", "css:finder"],
+        ["xpath=//select[@id='serviceEditStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e70dec3-8a9a-441e-a0ea-8ec794fc358e",
+      "comment": "",
+      "command": "select",
+      "target": "id=serviceEditStatus",
+      "targets": [],
+      "value": "label=Hoạt động"
+    }, {
+      "id": "67306e2d-e1f5-4234-83a8-8d6e64f78b99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d8e7341-aa17-4df4-9325-cc291f9c72fe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c374d7c-80da-41f7-8288-0961ef8ed7d4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "95f2f58a-3736-4244-afde-e0edb1c735ff",
+    "name": "M_sua_dich_vu-7",
+    "commands": [{
+      "id": "a319cfdb-0c6e-4d68-98cf-ac0bba91d528",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/package/service-price",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ee6e003-f278-4ac9-bf1a-75a2d97317f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a79bcb9-9f35-4c6c-be53-fdf4ea3b961a",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) > .text-center:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(12) > .text-center:nth-child(4)", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[4]", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "075e642b-141a-4d63-a651-91671a13a63d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(12) .btn:nth-child(1) > .fas",
+      "targets": [
+        ["css=tr:nth-child(12) .btn:nth-child(1) > .fas", "css:finder"],
+        ["xpath=//tbody[@id='serviceTableBody']/tr[12]/td[5]/div/button/i", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[5]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13bca0b8-a100-4da6-af1f-4065f95145ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be6ea617-7f38-4b31-a164-ac21ddefdd78",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditType",
+      "targets": [
+        ["id=serviceEditType", "id"],
+        ["css=#serviceEditType", "css:finder"],
+        ["xpath=//input[@id='serviceEditType']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "VIP 1123"
+    }, {
+      "id": "f0b6fd08-e4da-4b4f-b87b-cdce400e36cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "240db3ef-2796-4da6-91f1-001cf888fbbe",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "613362d3-1fc8-40de-81e2-349ae015a7b3",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "99be3223-0bcb-40fe-8517-6fc41bef9ccc",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "52.5,14.375"
+    }, {
+      "id": "0b4e582a-0b5e-4ca2-8578-d3c645ea159d",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5face8c-2ac7-4113-abc3-f7f29a4e818c",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceEditPrice",
+      "targets": [
+        ["id=serviceEditPrice", "id"],
+        ["css=#serviceEditPrice", "css:finder"],
+        ["xpath=//input[@id='serviceEditPrice']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1300031"
+    }, {
+      "id": "08458035-d694-4b59-8d00-f83fbe952652",
+      "comment": "",
+      "command": "click",
+      "target": "id=serviceEditStatus",
+      "targets": [
+        ["id=serviceEditStatus", "id"],
+        ["css=#serviceEditStatus", "css:finder"],
+        ["xpath=//select[@id='serviceEditStatus']", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div/div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1e30f90-fe6f-40f3-b5e1-5fa181d2de69",
+      "comment": "",
+      "command": "select",
+      "target": "id=serviceEditStatus",
+      "targets": [],
+      "value": "label=Ẩn"
+    }, {
+      "id": "8d608300-3cb8-415b-935a-66a6029b0c92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "868bc36e-afc5-4f63-be89-ffbc35146467",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba532e8-71cf-4a17-a693-b9c758f8fede",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-warning",
+      "targets": [
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='serviceEditForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "49d39938-7c3a-4fc4-b152-e00ba9082afa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://localhost/package/service-price"],
+  "plugins": []
+}

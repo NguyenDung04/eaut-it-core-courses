@@ -1,0 +1,1858 @@
+{
+  "id": "49c0ac7a-9825-4294-9144-9ef0c96f394d",
+  "version": "2.0",
+  "name": "M_cap_nhat_thong_tin",
+  "url": "https://localhost/account/user-profile",
+  "tests": [{
+    "id": "3ac02dc3-644d-4cb0-a4eb-2d0c53b9f30a",
+    "name": "M_cap_nhat_thong_tin-1",
+    "commands": [{
+      "id": "638a7684-ad02-4018-8d6b-b681ee64029e",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/account/user-profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbd86101-8b33-4ded-af48-c2f939aac9fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7c5da2c-ff5e-4266-9fdc-dcc282fb64dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a459bb8d-4648-45df-8f55-8de420b6a147",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e03d1a-8e11-4c95-9f31-e92746a61c0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c02ec05b-ff74-4e03-a3cd-207c16cd7404",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cb5a1b0-361d-4d56-b189-4bbd4d3fc3a3",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "e6a5ac28-009d-4ccb-8950-5e7aa6f1a8d3",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "70abb9c9-d3fb-4a0e-8a7e-0082bb38cbae",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "48fe1315-971e-4bfa-93de-7023d45645ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87604bfc-f455-4876-85e1-4b275e46c3b9",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "tridug87@gmail.com"
+    }, {
+      "id": "30e7d0bd-cc31-4656-9423-bd2afe214fc7",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e9b828a-9d1e-47a9-bd6f-f50e828409c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ce67584-4e08-4162-8dab-3d056fb22f52",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff5cf992-2003-4557-8deb-91a9216fd276",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d78855bf-8d3e-4703-9966-54cccfaf8540",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54cc46b5-3c8d-4a21-a1d5-09d2e60edb8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "975615a1-07ae-44e8-998f-6419bdb7dd8a",
+      "comment": "",
+      "command": "type",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "0388674822"
+    }, {
+      "id": "e3f6b438-f6f9-446f-a19e-005000044950",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmUserInfo",
+      "targets": [
+        ["id=frmUserInfo", "id"],
+        ["css=#frmUserInfo", "css:finder"],
+        ["xpath=//form[@id='frmUserInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09380713-570d-42f1-82c5-36ac89ccdc98",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f98b649b-6ed1-42cd-922b-95cce26f977f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "07d974f4-8a26-4188-8f65-ff88aab7b31a",
+    "name": "M_cap_nhat_thong_tin-2",
+    "commands": [{
+      "id": "b8cd1de6-e5cb-4dcd-803a-2d5a64b2a250",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/account/user-profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94ca4f5d-e880-4efe-b006-44d8d361c9cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb062642-b20b-4b16-9a58-a1c8d80ef2e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "beb4d38b-7f2b-466f-ab40-2af18d62015c",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Trí Dũngg A"
+    }, {
+      "id": "c310ab8b-82d3-4707-a092-189beb8ba454",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7d056d8-81cf-4caf-a8bc-1997a688d719",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "022fdf05-ed10-472c-bc72-102a2a2732f7",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "a97b43bc-d20a-4aaf-ac46-9b889d877c9e",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "39e89688-d2f9-4b6b-bbe5-4893fce08594",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "99752892-4b14-4f46-815f-2dc7f2a48a11",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e703667e-f6fb-4e4b-bbe6-737b4bddc592",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f77694-8de7-42f9-b691-55aea5d44a64",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b78bd2a-a6e5-4340-b9a0-4a9e74f23f89",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e37a7b8-61fb-49fb-a7e3-869ae36c3ed1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c094d98-b4ea-4f7b-a642-e89d30d7bd10",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65459264-257c-4431-8cb8-a2bca1452deb",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c99990f-28a9-4420-93a8-4b46b21a7524",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "224675ed-786e-4b9d-9273-8edf75750a76",
+      "comment": "",
+      "command": "type",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "0388674822"
+    }, {
+      "id": "607874da-520f-40fe-bae5-ebfa6e52ef1e",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmUserInfo",
+      "targets": [
+        ["id=frmUserInfo", "id"],
+        ["css=#frmUserInfo", "css:finder"],
+        ["xpath=//form[@id='frmUserInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "612a8421-12e5-47da-956f-68dc3d3222fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7b76d65-9721-412d-a0a2-af6a61a10acd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3aaf4e01-acdd-4b2c-83ec-fde49ccf570f",
+    "name": "M_cap_nhat_thong_tin-3",
+    "commands": [{
+      "id": "fe2defbb-c845-4624-b641-b7d3622aa443",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/account/user-profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e7008a6-23de-4118-a0a2-8431683641bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67cec2fa-41b2-4e94-a80b-9979f4c36032",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c6e0717-476f-4d52-8449-dd7a169ed1ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Trí Dũngg A"
+    }, {
+      "id": "b8f61acd-0c93-4fb4-a5d8-c9dc0ec1f25e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2678e56a-b459-4832-a5e7-e67d436aa322",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a695b765-ea50-41ef-8a5c-7a26051f63a7",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "1ed1474f-e9e7-46fd-954e-800ab35bebd5",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "42b5c642-cdc5-4ff7-8fb4-480bf9638eee",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "8de3359a-b5e1-42a2-aa3f-7bda249c6b9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "443b54e0-41f7-4251-9e2e-753b2fb2633b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "tridug87@gmail.com"
+    }, {
+      "id": "9ec7fd58-e1f9-49a9-af79-453d6cce519f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "333901c0-3cf1-4fb3-a5f8-20e01d7cf02a",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91dff216-285b-4294-aed7-8fa3ef962380",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e764d48-c8c0-414e-bce5-425c5efc87bc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cd1a498-672c-4385-9025-e3fc82ec77ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75c0f206-2eb9-4c86-b145-00d9523c0cee",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72294e6b-e91f-4d6b-8993-352038ef5549",
+      "comment": "",
+      "command": "type",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "0388674822"
+    }, {
+      "id": "4b34ed5c-d9cc-414a-bac1-edf13a23c5f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmUserInfo",
+      "targets": [
+        ["id=frmUserInfo", "id"],
+        ["css=#frmUserInfo", "css:finder"],
+        ["xpath=//form[@id='frmUserInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f13ff6ff-1034-4075-a3bf-dc58c10a6a6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e2a800-c6f6-45f1-ba45-3fd1cddfb419",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "49d74e57-7fd9-4c46-a83a-f8cd14e2ae9d",
+    "name": "M_cap_nhat_thong_tin-4",
+    "commands": [{
+      "id": "cfcf7e50-6fea-45c0-8d1b-56590df1766b",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/account/user-profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1899047-ad71-4618-829e-a26e9dd6e391",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86cb21f0-7048-45cc-b604-5038cacfa6f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50881649-8aff-4039-a7b0-5c0d6cd07834",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Trí Dũngg A"
+    }, {
+      "id": "5c7c783b-1b81-46ee-97ba-5bbe5abfdddd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1810a5ec-b446-4f64-bf65-afc35520057b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81a5364-a21e-4023-87fd-c1211939fd61",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "bba79cac-2719-4bd2-b59a-ee3ffa93ecd6",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "9fff0e21-5319-4deb-9d15-e9d2a675440c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "b9ea23fe-8c03-4d13-960f-0a2966a6449b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84022450-f27c-45db-9209-0a69ebfda03b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "tridug87@@gmail.com"
+    }, {
+      "id": "9259a3f9-a924-4e02-99fd-ba5974346c62",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fd6175f-91ce-40ff-a489-49be15363ce2",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0fc6e3c-8abd-47b5-a949-38302ad13992",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "211b3b29-693e-446a-a1c3-becec6b39131",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb9a5d03-69ab-4b93-8661-578b5923ae87",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e9233a3-ab47-49b7-9811-11bdc214d192",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7f1030f-7d56-4c17-b52a-36ac9dd0e737",
+      "comment": "",
+      "command": "type",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "0388674822"
+    }, {
+      "id": "43bc2374-5ab3-4147-8a8a-efa0c4f36f2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmUserInfo",
+      "targets": [
+        ["id=frmUserInfo", "id"],
+        ["css=#frmUserInfo", "css:finder"],
+        ["xpath=//form[@id='frmUserInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde94444-3027-44c7-8ed4-da687f913c15",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d905202-0e30-4383-bda9-d517b0d0cd92",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cf85aac1-1a18-4f3b-b9ef-ff5d26d14caf",
+    "name": "M_cap_nhat_thong_tin-5",
+    "commands": [{
+      "id": "828ca6bf-5de2-4fc3-a7d1-08bf3a673f98",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/account/user-profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be0bcffe-35c3-4e54-8b61-bbbc289bb9e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e62ed382-ef9f-4f2b-8ed9-332a098559cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21a4f273-64fd-48c8-b315-c3c3b546d878",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Trí Dũngg A"
+    }, {
+      "id": "4dd7fe47-c3b8-4120-b0ba-0ee7a561a61d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e7fd4b0-ddef-413b-92f4-7486518ba4b5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31074840-59dd-49eb-9c15-374e12f303f5",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "9f8162eb-d89a-4ed1-a15c-cb1f6d3cd063",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "1ab0b309-54f7-4323-a889-7bcab889ce57",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "9acd736f-13f0-4b22-b3b2-b43a6483c1eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd94343e-1686-4ce0-a257-e010571eed63",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "tridug87@gmail.com"
+    }, {
+      "id": "88666add-8115-42f2-af52-c3f92d67b156",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be1215a5-d99d-4bcf-a529-730306285597",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3b9f359-3f73-47b9-96e2-249df2666d9e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a97f829-9e6c-4547-be74-c9eba6daed01",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deab8669-ae9c-4add-b0d3-01b2e3030895",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59b7f33c-2e96-42d7-b1e1-a4f602a03303",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3150dc7-2628-4c30-8057-696b7d155bc8",
+      "comment": "",
+      "command": "type",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "123ABC456"
+    }, {
+      "id": "403fb047-102a-4bb1-9214-a3813ec81ad5",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmUserInfo",
+      "targets": [
+        ["id=frmUserInfo", "id"],
+        ["css=#frmUserInfo", "css:finder"],
+        ["xpath=//form[@id='frmUserInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "369bd4e6-9d2a-4a80-8ad3-a249784cecd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1452278a-97a7-4813-a134-c838a7994c0a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "91c05a69-fb64-4b96-b7f9-1eabdd9eaa79",
+    "name": "M_cap_nhat_thong_tin-6",
+    "commands": [{
+      "id": "d7fa3b31-e60d-4ceb-a18f-37bf96f5242b",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/account/user-profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acbd7b02-b5f6-40de-a9ff-b525d140d02b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e45fac67-e1ad-4c43-9a0e-9967a26caa6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8450d0cc-d257-4fc7-8a32-50e88e6e6e69",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Trí Dũngg A"
+    }, {
+      "id": "ad4d6732-2b50-4981-b099-722e75322ce8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fca19e9f-2307-4fed-ac05-cd7639c7434d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "104370fb-fc3b-4991-bb06-f1b89b20ab26",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "06c36d5e-b215-401c-8a1d-10bb557372ca",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "ae539dae-c0f7-412a-a41d-1dc0f333ab35",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "c6ec4ff7-7850-44b7-b3ed-edf8c51dffcd",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "715e82b5-8571-4e6e-a580-ed1aff1ed562",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "tridug87@gmail.com"
+    }, {
+      "id": "928b34e0-edd6-42c9-8a7f-dc7624924645",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9e08eec-e19b-435d-8121-f724f55d4ab2",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80856938-aaf8-4e48-8151-48c70cef7a02",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fd7f7d4-28ec-4d84-ba38-e05ea62d3f5a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02bafa22-b649-48a0-b0b7-c535a2b17b4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eb85d64-5113-40b2-b310-096589e53171",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b142784f-6428-4eb7-bbc3-6c6962f729c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "2987adad-9394-4585-8163-7200e2ec9cd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmUserInfo",
+      "targets": [
+        ["id=frmUserInfo", "id"],
+        ["css=#frmUserInfo", "css:finder"],
+        ["xpath=//form[@id='frmUserInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1b73127-17e8-422c-82d9-75d2c2ed71f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be7fb0ec-8738-488f-a08a-dfb38a109fb1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cdff0123-9510-4f0f-97ae-8785958f4ee1",
+    "name": "M_cap_nhat_thong_tin-7",
+    "commands": [{
+      "id": "3e896e49-1c86-4e6c-b007-0e6a958785d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost/account/user-profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0c606b6-f1fa-462f-9aea-3679b4328624",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6031782b-f3d5-4615-951f-446e74de9a9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "556bbbe3-1c61-4ba4-8dab-0e91a49b0e8e",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Trí Dũngg A"
+    }, {
+      "id": "affa0358-3966-4f6e-9e8c-4c05617281d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "369c4b7e-815a-4b78-a3ee-4876aeded3a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#btnEditEmail > .fa-solid",
+      "targets": [
+        ["css=#btnEditEmail > .fa-solid", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db3e67df-45dd-478a-800e-7ecd9870d266",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "62828e3a-58ae-453a-99de-60b33f3804ea",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "223aed1f-7cc1-4d6d-b444-7b2bba49acb9",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "50,15.984375"
+    }, {
+      "id": "08370d67-7d17-4b7a-bae6-6d14d71c40d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bc77e51-fbb8-4bc4-af31-6c5fbe829ee7",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "tridug87@gmail.com"
+    }, {
+      "id": "89ef919e-0918-4b69-b404-e77abe93b1ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9113a4ac-a6f4-4b1b-8f07-8bd175ec1b03",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd87eba5-353f-4f7d-8e63-066566d8bfae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "367e1bc5-c47f-420b-b094-6a7fc5e73f94",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnEditEmail",
+      "targets": [
+        ["id=btnEditEmail", "id"],
+        ["css=#btnEditEmail", "css:finder"],
+        ["xpath=//button[@id='btnEditEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29b8fa5f-c1b1-4465-9603-a8387ce12f4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35ab4ac8-0b3f-4333-985b-19dbe843a6dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a0c2698-c41a-4f5e-aaa3-90319b9db6c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "012345678901"
+    }, {
+      "id": "8fbe26e2-8199-4c6e-b3ec-0fa070a6e7a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmUserInfo",
+      "targets": [
+        ["id=frmUserInfo", "id"],
+        ["css=#frmUserInfo", "css:finder"],
+        ["xpath=//form[@id='frmUserInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/main/div[2]/div/div[2]/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca60bd3-1468-4614-a301-ccf516f36322",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a26911-d3d0-47b4-8722-21d1c39d05e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSubmitUserInfo",
+      "targets": [
+        ["id=btnSubmitUserInfo", "id"],
+        ["css=#btnSubmitUserInfo", "css:finder"],
+        ["xpath=//button[@id='btnSubmitUserInfo']", "xpath:attributes"],
+        ["xpath=//form[@id='frmUserInfo']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cập nhật thông tin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "354e08a8-8fe9-44a3-923e-ab5a99960a8f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://localhost/account/user-profile"],
+  "plugins": []
+}
