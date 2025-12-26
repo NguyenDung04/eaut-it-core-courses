@@ -1,0 +1,69 @@
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\bin\Debug\Affine.exe.config
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\bin\Debug\Affine.exe
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\bin\Debug\Affine.pdb
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\obj\Debug\Affine.csprojResolveAssemblyReference.cache
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\obj\Debug\Affine.Form1.resources
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.Cache
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\obj\Debug\Affine.exe
+C:\Users\G-nux\Desktop\Affine\Affine\Affine\obj\Debug\Affine.pdb
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\bin\Debug\Affine.exe.config
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\obj\Debug\Affine.exe
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\obj\Debug\Affine.pdb
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\bin\Debug\Affine.exe
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\bin\Debug\Affine.pdb
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\obj\Debug\Affine.csprojResolveAssemblyReference.cache
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\obj\Debug\Affine.Form1.resources
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+C:\Users\Le Dinh Hoc\Desktop\AN TOÀN MẠNG MÁY TÍNH\a xứng\Affine\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.Cache
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\bin\Debug\Affine.exe.config
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.exe
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.pdb
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\bin\Debug\Affine.exe
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\bin\Debug\Affine.pdb
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.csprojResolveAssemblyReference.cache
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.Form1.resources
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+D:\T36\Mon An toàn mạng máy tính\DS Báo cáo\Đề tài\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.Cache
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\bin\Debug\Affine.exe.config
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.exe
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.pdb
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\bin\Debug\Affine.exe
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\bin\Debug\Affine.pdb
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.csprojResolveAssemblyReference.cache
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.Form1.resources
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+D:\TAI LIEU\A. Nam Cuoi\CAC_MON_HOC\antoanmang\D3A\De tai 6_He ma Affine\Demo_Affine\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PVD\He ma Affine_20422\Demo_Affine\Affine\Affine\bin\Debug\Affine.exe.config
+C:\Users\Admin\Desktop\PVD\He ma Affine_20422\Demo_Affine\Affine\Affine\obj\Debug\Affine.exe
+C:\Users\Admin\Desktop\PVD\He ma Affine_20422\Demo_Affine\Affine\Affine\obj\Debug\Affine.pdb
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\bin\Debug\Affine.exe.config
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\bin\Debug\Affine.exe
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\bin\Debug\Affine.pdb
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\obj\Debug\Affine.csproj.AssemblyReference.cache
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\obj\Debug\Affine.Form1.resources
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\obj\Debug\Affine.Properties.Resources.resources
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\obj\Debug\Affine.csproj.GenerateResource.cache
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\obj\Debug\Affine.csproj.CoreCompileInputs.cache
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\obj\Debug\Affine.exe
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Demo_Affine\Affine\Affine\obj\Debug\Affine.pdb
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\bin\Debug\Affine.exe.config
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\bin\Debug\Affine.exe
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\bin\Debug\Affine.pdb
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.csproj.AssemblyReference.cache
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.Form1.resources
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.Properties.Resources.resources
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.csproj.GenerateResource.cache
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.csproj.CoreCompileInputs.cache
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.exe
+D:\Tải xuống\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.pdb
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\bin\Debug\Affine.exe.config
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\bin\Debug\Affine.exe
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\bin\Debug\Affine.pdb
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.csproj.AssemblyReference.cache
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.Form1.resources
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.Properties.Resources.resources
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.csproj.GenerateResource.cache
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.csproj.CoreCompileInputs.cache
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.exe
+D:\ImportantDocuments\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 5\An toàn bảo mật thông tin\Demo_Affine-20240910T171214Z-001\Affine\obj\Debug\Affine.pdb
