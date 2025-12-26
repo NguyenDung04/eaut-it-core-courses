@@ -1,0 +1,40 @@
+D:\New folder\LTM160524\SERVER\bin\Debug\SERVER.exe.config
+D:\New folder\LTM160524\SERVER\bin\Debug\SERVER.exe
+D:\New folder\LTM160524\SERVER\bin\Debug\SERVER.pdb
+D:\New folder\LTM160524\SERVER\obj\Debug\SERVER.csproj.AssemblyReference.cache
+D:\New folder\LTM160524\SERVER\obj\Debug\SERVER.Properties.Resources.resources
+D:\New folder\LTM160524\SERVER\obj\Debug\SERVER.Server.resources
+D:\New folder\LTM160524\SERVER\obj\Debug\SERVER.csproj.GenerateResource.cache
+D:\New folder\LTM160524\SERVER\obj\Debug\SERVER.csproj.CoreCompileInputs.cache
+D:\New folder\LTM160524\SERVER\obj\Debug\SERVER.exe
+D:\New folder\LTM160524\SERVER\obj\Debug\SERVER.pdb
+D:\Tải xuống\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.exe.config
+D:\Tải xuống\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.exe
+D:\Tải xuống\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.pdb
+D:\Tải xuống\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.AssemblyReference.cache
+D:\Tải xuống\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.Properties.Resources.resources
+D:\Tải xuống\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.Server.resources
+D:\Tải xuống\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.GenerateResource.cache
+D:\Tải xuống\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.CoreCompileInputs.cache
+D:\Tải xuống\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.exe
+D:\Tải xuống\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.pdb
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.exe.config
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.exe
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.pdb
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.AssemblyReference.cache
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.Properties.Resources.resources
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.Server.resources
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.GenerateResource.cache
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.CoreCompileInputs.cache
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.exe
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.pdb
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.exe.config
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.exe
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\bin\Debug\SERVER.pdb
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.AssemblyReference.cache
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.Properties.Resources.resources
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.Server.resources
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.GenerateResource.cache
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.csproj.CoreCompileInputs.cache
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.exe
+D:\Important_Documents\Đại Học Công Nghệ Đông Á\Đại Học Công Nghệ Đông Á\Kì 4\Lập trình mạng\LTM160524\LTM160524\SERVER\obj\Debug\SERVER.pdb

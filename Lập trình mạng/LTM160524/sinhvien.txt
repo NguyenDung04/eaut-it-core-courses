@@ -1,0 +1,10 @@
+
+Họ Và Tên : Nguyễn Trí Dũng | Môn Học : Lập Trình Mạng  | Điểm GPA : A | Time : 15/07/2024 1:39:31 CH
+Họ Và Tên : Nguyễn Trung Chính | Môn Học : Lập Trình PHP  | Điểm GPA : A | Time : 15/07/2024 1:40:54 CH
+Họ Và Tên : Trần Văn Nam | Môn Học : Lập Trình JAVA  | Điểm GPA : B | Time : 15/07/2024 1:42:15 CH
+Họ Và Tên : Vũ Văn Phong | Môn Học : Lập Trình .NET  | Điểm GPA : B | Time : 15/07/2024 1:43:24 CH
+Họ Và Tên : Đổng Trung Đức | Môn Học : Lập Trình Mạng  | Điểm GPA : A | Time : 15/07/2024 1:44:45 CH
+Họ Và Tên : Nguyễn Văn A | Môn Học : Lập Trình .NET  | Điểm GPA : A | Time : 15/07/2024 8:18:00 CH
+Họ Và Tên : Nguyễn Văn B | Môn Học : Lập Trình .NET  | Điểm GPA : A | Time : 15/07/2024 8:18:23 CH
+Họ Và Tên : trần văn a | Môn Học : Lập Trình Mạng  | Điểm GPA : A | Time : 16/07/2024 4:15:04 CH
+Họ Và Tên : nguyễn văn c | Môn Học : Lập Trình JAVA  | Điểm GPA : A | Time : 16/07/2024 4:55:00 CH

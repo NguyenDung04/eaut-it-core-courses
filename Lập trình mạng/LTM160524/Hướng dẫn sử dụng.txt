@@ -1,0 +1,4 @@
+Vui lòng click vào thư mục sinhvien.txt. Sau đó copy Path.
+Sau đó chạy chương trình.
+Vào phần Server để đổi địa chỉ lưu file.
+Finally...

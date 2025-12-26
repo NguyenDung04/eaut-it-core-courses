@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{369A7FA6-36FD-41C8-A924-9F0AC39C4F3A}|CLIENT\\CLIENT.csproj|D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369A7FA6-36FD-41C8-A924-9F0AC39C4F3A}|CLIENT\\CLIENT.csproj|solutionrelative:client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369A7FA6-36FD-41C8-A924-9F0AC39C4F3A}|CLIENT\\CLIENT.csproj|D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{369A7FA6-36FD-41C8-A924-9F0AC39C4F3A}|CLIENT\\CLIENT.csproj|solutionrelative:client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|d:\\important_documents\\\u0111\u1EA1i h\u1ECDc c\u00F4ng ngh\u1EC7 \u0111\u00F4ng \u00E1\\\u0111\u1EA1i h\u1ECDc c\u00F4ng ngh\u1EC7 \u0111\u00F4ng \u00E1\\k\u00EC 4\\l\u1EADp tr\u00ECnh m\u1EA1ng\\ltm160524\\ltm160524\\server\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|solutionrelative:server\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369A7FA6-36FD-41C8-A924-9F0AC39C4F3A}|CLIENT\\CLIENT.csproj|D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369A7FA6-36FD-41C8-A924-9F0AC39C4F3A}|CLIENT\\CLIENT.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\server\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58DEB67-9373-4ED4-975D-D64AD887710E}|SERVER\\SERVER.csproj|solutionrelative:server\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "client.cs",
+              "DocumentMoniker": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\CLIENT\\client.cs",
+              "RelativeDocumentMoniker": "CLIENT\\client.cs",
+              "ToolTip": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\CLIENT\\client.cs",
+              "RelativeToolTip": "CLIENT\\client.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vyQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:04:42.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Server.cs",
+              "DocumentMoniker": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\Server.cs",
+              "RelativeDocumentMoniker": "SERVER\\Server.cs",
+              "ToolTip": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\Server.cs",
+              "RelativeToolTip": "SERVER\\Server.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwEcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:49:07.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Server.Designer.cs",
+              "DocumentMoniker": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\Server.Designer.cs",
+              "RelativeDocumentMoniker": "SERVER\\Server.Designer.cs",
+              "ToolTip": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\Server.Designer.cs",
+              "RelativeToolTip": "SERVER\\Server.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:01:46.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "client.cs [Design]",
+              "DocumentMoniker": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\CLIENT\\client.cs",
+              "RelativeDocumentMoniker": "CLIENT\\client.cs",
+              "ToolTip": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\CLIENT\\client.cs [Design]",
+              "RelativeToolTip": "CLIENT\\client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:43:55.356Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Server.cs [Design]",
+              "DocumentMoniker": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\Server.cs",
+              "RelativeDocumentMoniker": "SERVER\\Server.cs",
+              "ToolTip": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\Server.cs [Design]",
+              "RelativeToolTip": "SERVER\\Server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:44:40.009Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\SinhVien.cs",
+              "RelativeDocumentMoniker": "SERVER\\SinhVien.cs",
+              "ToolTip": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\SinhVien.cs",
+              "RelativeToolTip": "SERVER\\SinhVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:10:14.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\CLIENT\\Program.cs",
+              "RelativeDocumentMoniker": "CLIENT\\Program.cs",
+              "ToolTip": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\CLIENT\\Program.cs",
+              "RelativeToolTip": "CLIENT\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:02:41.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\Program.cs",
+              "RelativeDocumentMoniker": "SERVER\\Program.cs",
+              "ToolTip": "D:\\Important_Documents\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\\u0110\u1EA1i H\u1ECDc C\u00F4ng Ngh\u1EC7 \u0110\u00F4ng \u00C1\\K\u00EC 4\\L\u1EADp tr\u00ECnh m\u1EA1ng\\LTM160524\\LTM160524\\SERVER\\Program.cs",
+              "RelativeToolTip": "SERVER\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T14:16:28.068Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

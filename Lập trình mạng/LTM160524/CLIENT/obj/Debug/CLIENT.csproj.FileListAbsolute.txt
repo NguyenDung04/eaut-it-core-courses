@@ -1,0 +1,30 @@
+D:\New folder\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.AssemblyReference.cache
+D:\New folder\LTM160524\CLIENT\obj\Debug\CLIENT.Properties.Resources.resources
+D:\New folder\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.GenerateResource.cache
+D:\New folder\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.CoreCompileInputs.cache
+D:\New folder\LTM160524\CLIENT\bin\Debug\CLIENT.exe.config
+D:\New folder\LTM160524\CLIENT\bin\Debug\CLIENT.exe
+D:\New folder\LTM160524\CLIENT\bin\Debug\CLIENT.pdb
+D:\New folder\LTM160524\CLIENT\obj\Debug\CLIENT.client.resources
+D:\New folder\LTM160524\CLIENT\obj\Debug\CLIENT.exe
+D:\New folder\LTM160524\CLIENT\obj\Debug\CLIENT.pdb
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\bin\Debug\CLIENT.exe.config
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\bin\Debug\CLIENT.exe
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\bin\Debug\CLIENT.pdb
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.AssemblyReference.cache
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.client.resources
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.Properties.Resources.resources
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.GenerateResource.cache
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.CoreCompileInputs.cache
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.exe
+D:\Tải xuống\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.pdb
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\bin\Debug\CLIENT.exe.config
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\bin\Debug\CLIENT.exe
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\bin\Debug\CLIENT.pdb
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.AssemblyReference.cache
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.client.resources
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.Properties.Resources.resources
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.GenerateResource.cache
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.csproj.CoreCompileInputs.cache
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.exe
+C:\Users\vup23\Downloads\LTM160524\LTM160524\LTM160524\CLIENT\obj\Debug\CLIENT.pdb
