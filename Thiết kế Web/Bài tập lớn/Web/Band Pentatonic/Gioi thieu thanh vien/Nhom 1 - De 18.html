@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhom 1 - De 18</title>
+    <link rel="stylesheet" href="..//Web/assets/css/style.css">
+    <style>
+        :root {
+            --primary-color: rgb(0, 166, 255);
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html { 
+            font-family: Arial, Helvetica, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .grid__row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -5px;
+            margin-right: -5px;
+        }
+
+        .grid__column-2-4 {
+            padding-left: 50px;
+            padding-right: 50px;
+            width: 25%;
+        }
+
+        .heading {
+            padding: 15px;
+            text-transform: uppercase;
+            text-align: center;
+            background-color: var(--primary-color);
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .sp {
+            padding: 2px;
+            text-align: center;
+            background-color: var(--primary-color);
+            border-radius: 10px;
+            border: 2px solid #000;
+            height: 350px;
+        }
+        
+        .img {
+            padding: 25px 0;
+        }
+        
+        img {
+            border: 2px solid #000;
+            border-radius: 10px;
+            width: 150px;
+            object-fit: cover;
+            height: 150px;
+            object-position: 50% 50%;
+        }
+
+        .tensv {
+            margin-top: 10px;
+        }
+        
+        .masv {
+            padding: 10px;
+            color: rgb(0, 0, 0);
+        }
+
+        .sthich {
+            color: rgb(0, 0, 0);
+            padding-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="heading"><b>Thành Viên Nhóm 1</b></div>
+    <div class="app">
+        <div class="grid__row">
+            <div class="grid__column-2-4">
+                <div class="sp">
+                    <div class="img"><img src="./assets/img/Dung.jpg" alt="Nguyễn Trí Dũng"></div>
+                    <div class="tensv">Nguyễn Trí Dũng</div>
+                    <div class="masv">Mã Sinh Viên: 20223155</div>                        
+                    <div class="sthich">Sở Thích: Đá Bóng</div>
+                </div>
+            </div>
+            <div class="grid__column-2-4">
+                <div class="sp">
+                    <div class="img"><img src="./assets/img/Nguyen.jpg" alt="Hoàng Văn Nguyên"></div>
+                    <div class="tensv">Hoàng Văn Nguyên</div>
+                    <div class="masv">Mã Sinh Viên: 20223153</div>                        
+                    <div class="sthich">Sở Thích: Chạy Bộ</div>
+                </div>
+            </div>
+            <div class="grid__column-2-4">
+                <div class="sp">
+                    <div class="img"><img src="./assets/img/Duc.jpg" alt="Đổng Trung Đức"></div>
+                    <div class="tensv">Đổng Trung Đức</div>
+                    <div class="masv">Mã Sinh Viên: 20222877</div>                        
+                    <div class="sthich">Sở Thích: Bơi Lội</div>
+                </div>
+            </div>
+            <div class="grid__column-2-4">
+                <div class="sp">
+                    <div class="img"><img src="./assets/img/Thanh.jpg" alt="Hoàng Ngọc Thành"></div>
+                    <div class="tensv">Hoàng Ngọc Thành</div>
+                    <div class="masv">Mã Sinh Viên: 20223011</div>                        
+                    <div class="sthich">Sở Thích: Thể Thao</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+[1]. https://www.geeksforgeeks.org/basics-computer-networking/
+[2]. https://www.spiceworks.com/tech/networking/articles/what-is-a-computer-network/
+[3]. https://www.freecodecamp.org/news/tag/computer-networking/

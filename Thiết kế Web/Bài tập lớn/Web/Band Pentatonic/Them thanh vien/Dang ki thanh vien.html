@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Đăng kí thành viên</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #dda4a4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .heading {
+            padding: 20px 0;
+        }
+
+        .dky {
+            margin-right: 30px;
+            display: block;  
+            padding: 20px 0;     
+            text-align: center; 
+        }
+        
+        .contact-container {
+            text-align: left;
+            padding: 50px;
+            background-color: rgba(209, 122, 243, 0.952);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .contact-input {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            margin-bottom: 10px;
+        }
+
+        .ky {
+            width: 300px;
+            padding: 10px;
+        }
+        
+        .contact-textarea {
+            width: 300px;
+            height: 150px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            margin-bottom: 10px;
+        }
+        
+        .btn {
+            padding-top: 20px;
+        }
+
+        .contact-button {
+            padding: 10px 20px;
+            background-color: #0062ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-button:hover {
+            background-color: #3d87ff;
+            color: rgba(0, 0, 0, 0.621);
+        }
+
+        tfoot {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <form name="myForm" action="mailto:nguyendung2004nb@gmail.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
+            <table>
+                <caption>
+                    <div class="heading">
+                        <h2>Đăng ký thành viên</h2>
+                    </div>
+                </caption>
+
+                <tbody>
+                    <tr>
+                        <th><label class="dky" for="name">Họ và tên:</label></th>
+                        <th><input class="ky" type="contact-input" type="text" placeholder="Họ Và Tên" id="name" name="name" required></th>
+                    </tr>           
+    
+                    <tr>
+                        <th><label class="dky" for="email">Email:</label></th>
+                        <th><input class="ky" type="email" placeholder="@" id="email" name="email" required></th>
+                    </tr>
+    
+                    <tr>
+                        <th><label class="dky" for="phone">SDT:</label></th>
+                        <th><input class="ky" type="phone" placeholder="0xxxxxxxxx" id="message" name="message" required></th>
+                    </tr>
+    
+                    <tr>
+                        <th><label class="dky" for="message">Góp ý:</label></th>
+                            <th>
+                                <textarea class="ky" type="contact-textarea" id="message" name="message" cols="10" rows="10" placeholder="Nội dung góp ý" required></textarea>                        
+                            </th>
+                        </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th class="btn" colspan="2">
+                            <button class="contact-button" type="submit">Gửi đi</button>
+                            <button class="contact-button" type="reset"> Phục hồi</button>     
+                        </th>
+                    </tr>
+                </tfoot>
+
+            </table>  
+        </form>
+    </div>
+</body>
+</html>
